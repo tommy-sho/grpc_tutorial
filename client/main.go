@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"grpc_tutorial/proto"
 	"log"
 	"net/http"
 	"strconv"
+
+	"github.com/tensor-programming/grpc_tutorial/proto"
 
 	"github.com/gin-gonic/gin"
 	"google.golang.org/grpc"

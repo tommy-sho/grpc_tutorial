@@ -2,9 +2,9 @@ package main
 
 import (
 	"context"
-	"grpc_tutorial/proto"
 	"net"
 
+	"github.com/tensor-programming/grpc_tutorial/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
